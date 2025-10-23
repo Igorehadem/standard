@@ -297,3 +297,4 @@ type FramesPost = {
 Different client protocols may choose to include additional fields in the `untrustedData` and `trustedData` portions of the POST payload. Frame Servers may use the `clientProtocol` as a hint for what additional fields are available. All client protocols must include at least the common fields defined above.
 
 While the payload is similar to the [Farcaster Frames Spec](https://docs.farcaster.xyz/reference/frames/spec), it differs in two important ways. The first is the addition of the `clientProtocol` field. The second is that in place of a `timestamp`, which in Farcaster is the number of seconds since the Farcaster epoch, Open Frames uses the `unixTimestamp` field which is the number of seconds since the unix epoch.
+_Note: forked for study purposes — testing Farcaster integrations._
